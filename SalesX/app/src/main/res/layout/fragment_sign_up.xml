@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Sign_In"
+        android:background="@drawable/salesx_darkblue_background"
+        >
+
+        <TextView
+            android:layout_width="90pt"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50pt"
+            android:layout_marginLeft="14pt"
+            android:text="Create Account"
+            android:layout_gravity="start"
+            android:textSize="23pt"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            />
+
+        <Spinner
+            android:id="@+id/sign_up_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:background="@color/transparent"
+            android:layout_marginTop="20pt"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_marginTop="15pt"
+            android:layout_width="170pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_border"
+            android:textColor="@color/white"
+            android:textSize="9pt"
+            android:fontFamily="sans-serif"
+            android:hint="Name"
+            android:textColorHint="@color/lightgray"
+            tools:ignore="Autofill,HardcodedText"
+            />
+
+        <EditText
+            android:id="@+id/edittext_signup_email"
+            android:layout_marginTop="15pt"
+            android:layout_width="170pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_border"
+            android:textColor="@color/white"
+            android:textSize="9pt"
+            android:fontFamily="sans-serif"
+            android:hint="Email"
+            android:textColorHint="@color/lightgray"
+            tools:ignore="Autofill,HardcodedText"
+            />
+
+        <EditText
+            android:id="@+id/edittext_signup_password"
+            android:layout_marginTop="15pt"
+            android:layout_width="170pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_border"
+            android:textColor="@color/white"
+            android:textSize="9pt"
+            android:fontFamily="sans-serif"
+            android:hint="Password"
+            android:textColorHint="@color/lightgray"
+            tools:ignore="Autofill,HardcodedText"
+            />
+
+        <ImageView
+            android:id="@+id/show_hide_password_1"
+            android:layout_width="10pt"
+            android:layout_height="10pt"
+            android:layout_marginTop="-14pt"
+            android:layout_marginLeft="165pt"
+            android:src="@drawable/visibility_off"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+            />
+
+        <EditText
+            android:id="@+id/edittext_signup_repassword"
+            android:layout_marginTop="15pt"
+            android:layout_width="170pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_border"
+            android:textColor="@color/white"
+            android:textSize="9pt"
+            android:fontFamily="sans-serif"
+            android:hint="Re-Password"
+            android:textColorHint="@color/lightgray"
+            tools:ignore="Autofill,HardcodedText"
+            />
+
+        <ImageView
+            android:id="@+id/show_hide_password_2"
+            android:layout_width="10pt"
+            android:layout_height="10pt"
+            android:layout_marginTop="-14pt"
+            android:layout_marginLeft="165pt"
+            android:src="@drawable/visibility_off"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+            />
+
+        <Button
+            android:id="@+id/sign_up_submit"
+            android:layout_width="80pt"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="7pt"
+            android:fontFamily="sans-serif"
+            android:backgroundTint="@color/transparent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp"
+            tools:ignore="HardcodedText"
+            />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20pt"
+            android:layout_gravity="center"
+            android:text="Already have an account? Sign In"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:fontFamily="sans-serif"
+            android:background="@color/transparent"
+            android:layout_margin="10dp"
+            tools:ignore="HardcodedText"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

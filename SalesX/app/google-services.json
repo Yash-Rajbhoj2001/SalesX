@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597514692648",
+    "project_id": "salesx-5d605",
+    "storage_bucket": "salesx-5d605.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597514692648:android:ee1d5c2389f0b618c92d1d",
+        "android_client_info": {
+          "package_name": "com.example.salesx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhtt5AkURG3Cu_ta8-vUPl950r7m06TDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

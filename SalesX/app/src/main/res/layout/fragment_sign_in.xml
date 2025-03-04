@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInFragment">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Sign_In"
+        android:background="@drawable/salesx_darkblue_background"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60pt"
+        android:text="Welcome Back"
+        android:layout_gravity="center"
+        android:textSize="23pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        tools:ignore="HardcodedText"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:background="@color/transparent"
+        android:layout_marginTop="40pt"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_marginTop="15pt"
+        android:layout_width="170pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_border"
+        android:textColor="@color/white"
+        android:textSize="9pt"
+        android:fontFamily="sans-serif"
+        android:hint="Email"
+        android:textColorHint="@color/lightgray"
+        tools:ignore="Autofill,HardcodedText"
+        />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_marginTop="15pt"
+        android:layout_width="170pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_border"
+        android:textColor="@color/white"
+        android:textSize="9pt"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:textColorHint="@color/lightgray"
+        tools:ignore="Autofill,HardcodedText"
+        />
+
+    <ImageView
+        android:id="@+id/show_hide_password"
+        android:layout_width="10pt"
+        android:layout_height="10pt"
+        android:layout_marginTop="-14pt"
+        android:layout_marginLeft="165pt"
+        android:layout_alignEnd="@+id/edittext_password"
+        android:src="@drawable/visibility_off"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+        />
+
+    <Button
+        android:id="@+id/forgot_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:layout_marginLeft="100pt"
+        android:text="Forgot Password?"
+        android:textColor="@color/white"
+        android:textSize="7pt"
+        android:fontFamily="sans-serif"
+        android:background="@color/transparent"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        />
+
+    <Button
+        android:id="@+id/sign_in_submit"
+        android:layout_width="80pt"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_gravity="center"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="7pt"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="@color/transparent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"
+        tools:ignore="HardcodedText"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10pt"
+        android:background="@color/transparent"
+        android:fontFamily="sans-serif"
+        android:text="Are you new user? Register"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</FrameLayout>
